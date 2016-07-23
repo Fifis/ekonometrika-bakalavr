@@ -1,0 +1,8 @@
+Wald test
+Model 1: price ~ 1 + totsp + dist + metrdist
+Model 2: price ~ 1
+  Res.Df Df      F    Pr(>F)    
+1    769                        
+2    772 -3 257.07 < 2.2e-16 ***
+---
+Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1

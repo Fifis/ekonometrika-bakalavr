@@ -1,0 +1,4 @@
+( 1)  ASVAB02 - 2*ASVAB03 = 0
+( 2)  ASVAB03 - ASVAB04 = 0
+F(  2,   534) =    0.02
+Prob > F =    0.9822

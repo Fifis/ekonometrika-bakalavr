@@ -1,0 +1,5 @@
+         aftlife
+gender      no  yes  Sum
+  females  147  435  582
+  male     134  375  509
+  Sum      281  810 1091

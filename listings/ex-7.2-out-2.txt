@@ -1,0 +1,9 @@
+ ( 1)  livesp_walk - kitsp_walk = 0
+ ( 2)  livesp_walk - dist_walk = 0
+ ( 3)  livesp_walk - metrdist_walk = 0
+ ( 4)  livesp_walk - floors_walk = 0
+ ( 5)  - walk + livesp_walk = 0
+ ( 6)  livesp_walk = 0
+
+       F(  6,   761) =   20.06
+            Prob > F =    0.0000

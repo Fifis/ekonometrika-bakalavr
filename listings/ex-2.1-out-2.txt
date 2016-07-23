@@ -1,0 +1,7 @@
+      l                q                 k          
+Min.   :   3.0   Min.   :     40   Min.   :     73  
+1st Qu.:  50.5   1st Qu.:  50129   1st Qu.:  22779  
+Median : 145.0   Median : 125303   Median :  59640  
+Mean   : 211.8   Mean   : 206030   Mean   : 111941  
+3rd Qu.: 296.5   3rd Qu.: 253620   3rd Qu.: 121783  
+Max.   :1585.0   Max.   :2808219   Max.   :1750796  

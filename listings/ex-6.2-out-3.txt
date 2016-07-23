@@ -1,0 +1,2 @@
+Likelihood-ratio test                                 LR chi2(4)  =    275.62
+(Assumption: reg2 nested in reg1)                     Prob > chi2 =    0.0000

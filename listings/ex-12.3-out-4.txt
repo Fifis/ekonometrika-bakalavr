@@ -1,0 +1,5 @@
+KPSS Test for Level Stationarity
+
+data:  data$GDP[21:81]
+KPSS Level = 1.0473, Truncation lag parameter = 5, p-value = 0.01
+

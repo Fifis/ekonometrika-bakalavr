@@ -1,0 +1,18 @@
+Call:
+probitmfx(formula = prob, data = data_default)
+
+Marginal Effects:
+               dF/dx   Std. Err.       z     P>|z|    
+age      -1.2175e-03  3.9048e-04 -3.1178 0.0018219 ** 
+adepcnt   1.4117e-02  2.8963e-03  4.8739 1.094e-06 ***
+majordrg  1.9238e-02  7.0623e-03  2.7240 0.0064494 ** 
+minordrg  1.6649e-02  5.0086e-03  3.3241 0.0008869 ***
+ownrent  -1.8080e-02  7.8160e-03 -2.3133 0.0207082 *  
+income   -2.6514e-05  3.7339e-06 -7.1011 1.238e-12 ***
+spending -3.5021e-05  1.5292e-05 -2.2901 0.0220159 *  
+---
+Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+
+dF/dx is for discrete change for the following variables:
+
+[1] "ownrent"

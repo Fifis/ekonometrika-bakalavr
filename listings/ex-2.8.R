@@ -1,0 +1,6 @@
+setwd("C:/Users/admin/Desktop/data")
+data <- read.csv("afterlife.csv", header = TRUE)
+numbers <- xtabs(freq ~ gender + aftlife, data=data)
+addmargins(numbers)
+percent <- prop.table(numbers)
+round(addmargins(percent)*100, 1)

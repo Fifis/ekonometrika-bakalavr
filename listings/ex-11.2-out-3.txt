@@ -1,0 +1,29 @@
+Call:
+glm(formula = default ~ 1 + age + adepcnt + majordrg + minordrg + 
+    ownrent + income + spending, family = binomial(link = "probit"), 
+    data = data)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-0.9202  -0.4954  -0.4296  -0.3332   3.1235  
+
+Coefficients:
+              Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -6.843e-01  8.286e-02  -8.259  < 2e-16 ***
+age         -7.664e-03  2.465e-03  -3.109 0.001875 ** 
+adepcnt      8.887e-02  1.833e-02   4.848 1.25e-06 ***
+majordrg     1.211e-01  4.453e-02   2.720 0.006531 ** 
+minordrg     1.048e-01  3.160e-02   3.317 0.000909 ***
+ownrent     -1.143e-01  4.960e-02  -2.304 0.021236 *  
+income      -1.669e-04  2.412e-05  -6.919 4.54e-12 ***
+spending    -2.205e-04  9.655e-05  -2.284 0.022396 *  
+---
+Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 4274.2  on 6776  degrees of freedom
+Residual deviance: 4127.7  on 6769  degrees of freedom
+AIC: 4143.7
+
+Number of Fisher Scoring iterations: 5

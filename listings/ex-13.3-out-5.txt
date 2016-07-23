@@ -1,0 +1,3 @@
+Jarque Bera Test
+data:  resid
+X-squared = 53.434, df = 2, p-value = 2.494e-12

@@ -1,0 +1,6 @@
+Call:
+lm(formula = q ~ l, data = data)
+
+Coefficients:
+(Intercept)            l  
+     8378.2        933.1 

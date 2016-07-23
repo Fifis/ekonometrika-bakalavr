@@ -1,0 +1,4 @@
+Ramsey RESET test using powers of the fitted values of income
+       Ho:  model has no omitted variables
+                F(3, 4850) =     18.45
+                  Prob > F =      0.0000

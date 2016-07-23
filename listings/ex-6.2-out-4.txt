@@ -1,0 +1,4 @@
+ ( 1)  metrdist - metrdist_sq = 0
+ ( 2)  metrdist = 0
+       F(  2,   767) =   14.76
+            Prob > F =    0.0000

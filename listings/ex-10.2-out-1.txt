@@ -1,0 +1,1 @@
+	Goldfeld-Quandt testdata:  regGQ = 1.753, df1 = 246, df2 = 245, p-value = 6.392e-06

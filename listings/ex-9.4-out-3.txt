@@ -1,0 +1,2 @@
+ ln_totsp ln_totsp2 ln_totsp3 ln_livesp 
+518.66707 529.76667  40.88180  39.02523 

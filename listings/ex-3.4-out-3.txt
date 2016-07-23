@@ -1,0 +1,13 @@
+Call:
+lm(formula = q ~ l, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-727143  -45526  -11347   27583 1326604 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  8378.22   15530.76   0.539     0.59    
+l             933.06      49.29  18.928   <2e-16 ***
+---
+Signif. codes:  0 

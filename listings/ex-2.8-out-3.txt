@@ -1,0 +1,5 @@
+         aftlife
+gender       no   yes   Sum
+  females  13.5  39.9  53.3
+  male     12.3  34.4  46.7
+  Sum      25.8  74.2 100.0

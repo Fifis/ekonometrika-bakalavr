@@ -1,0 +1,6 @@
+setwd("C:/Users/admin/Desktop/data")
+data <- read.csv("concrete.csv", header = TRUE, sep=";")
+png("r-quantile.png", 500, 550, pointsize=18)
+qqnorm(data$q)
+qqline(data$q, lwd=2, lty=2)
+dev.off()

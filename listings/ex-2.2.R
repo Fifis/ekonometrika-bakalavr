@@ -1,0 +1,12 @@
+setwd("C:/Users/admin/Desktop/data")
+data <- read.csv("auto.csv", header = TRUE, sep=";")
+a <- table(data$headroom)
+a
+x <- as.numeric(rownames(a))
+y <- as.numeric(a)
+png("r-table-1.png", 600, 400, pointsize = 18)
+plot(a, main="Headroom frequency distribution")
+dev.off()
+png("r-table-2.png", 600, 400, pointsize = 18)
+plot(x, y, type="l")
+dev.off()

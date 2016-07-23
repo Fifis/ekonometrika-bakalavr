@@ -1,0 +1,21 @@
+Call:
+lm(formula = ln_price_metr ~ 1 + ln_totsp + ln_totsp2 + ln_totsp3 + 
+    ln_livesp, data = data_flats)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.69569 -0.10349 -0.00634  0.10610  0.61480 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 12.83914    2.01821   6.362 4.54e-10 ***
+ln_totsp    -0.23957    1.18724  -0.202    0.840    
+ln_totsp2    0.01018    0.16452   0.062    0.951    
+ln_totsp3    0.00195    0.01224   0.159    0.873    
+ln_livesp   -0.02225    0.35580  -0.063    0.950    
+---
+Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+
+Residual standard error: 0.2035 on 496 degrees of freedom
+Multiple R-squared:  0.01622,	Adjusted R-squared:  0.008282 
+F-statistic: 2.044 on 4 and 496 DF,  p-value: 0.08709

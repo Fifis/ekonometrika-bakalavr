@@ -1,0 +1,33 @@
+Iteration 0:   log pseudolikelihood = -118.41839  
+Iteration 1:   log pseudolikelihood =  -87.57895  
+Iteration 2:   log pseudolikelihood = -83.203646  
+Iteration 3:   log pseudolikelihood = -81.708543  
+Iteration 4:   log pseudolikelihood = -81.406204  
+(switching optimization to BFGS)
+Iteration 5:   log pseudolikelihood = -81.382324  
+Iteration 6:   log pseudolikelihood =  -81.37194  
+Iteration 7:   log pseudolikelihood = -81.371219  
+Iteration 8:   log pseudolikelihood = -81.371042  
+Iteration 9:   log pseudolikelihood = -81.371036  
+ARIMA regression
+
+Sample:  2001m1 - 2015m6                        Number of obs      =       174
+                                                Wald chi2(2)       =    108.31
+Log pseudolikelihood = -81.37104                Prob > chi2        =    0.0000
+
+------------------------------------------------------------------------------
+             |             Semirobust
+     S12.inf |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+inf          |
+       _cons |  -.0465195   .0208948    -2.23   0.026    -.0874726   -.0055664
+-------------+----------------------------------------------------------------
+ARMA         |
+          ar |
+         L1. |   .6770183   .0708321     9.56   0.000     .5381899    .8158468
+-------------+----------------------------------------------------------------
+ARMA12       |
+          ma |
+         L1. |  -.8853909   .1278403    -6.93   0.000    -1.135953   -.6348285
+-------------+----------------------------------------------------------------
+      /sigma |   .3660328    .030376    12.05   0.000     .3064969    .4255686

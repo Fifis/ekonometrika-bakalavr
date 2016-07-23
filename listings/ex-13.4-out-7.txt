@@ -1,0 +1,4 @@
+                   Shapiro-Wilk W test for normal data
+    Variable |    Obs       W           V         z       Prob>z
+-------------+--------------------------------------------------
+         res |    174    0.97205      3.696     2.986    0.00141

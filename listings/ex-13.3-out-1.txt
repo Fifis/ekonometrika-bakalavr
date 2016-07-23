@@ -1,0 +1,9 @@
+Call:
+arima(x = gdp, seasonal = list(order = c(1L, 0L, 1L), period = 4))
+
+Coefficients:
+        sar1    sma1  intercept
+      0.9604  0.3040   8611.075
+s.e.  0.0260  0.1043    989.873
+
+sigma^2 estimated as 231084:  log likelihood = -469.58,  aic = 947.16

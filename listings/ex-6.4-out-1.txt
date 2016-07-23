@@ -1,0 +1,8 @@
+Likelihood ratio test
+Model 1: price ~ 1 + totsp + dist + metrdist
+Model 2: price ~ 1
+  #Df LogLik Df  Chisq Pr(>Chisq)    
+1   5 -12213                         
+2   2 -12482 -3 536.91  < 2.2e-16 ***
+---
+Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1

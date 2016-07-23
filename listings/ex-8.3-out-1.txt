@@ -1,0 +1,7 @@
+PE test
+
+Model 1: price ~ 1 + totsp + dist + metrdist
+Model 2: log(price) ~ 1 + log(totsp) + log(dist) + log(metrdist)
+                          Estimate Std. Error t value  Pr(>|t|)    
+M1 + log(fit(M1))-fit(M2) -2006113    1143047 -1.7551   0.07965 .  
+M2 + fit(M1)-exp(fit(M2))        0          0  6.4604 1.854e-10 ***

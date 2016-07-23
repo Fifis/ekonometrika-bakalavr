@@ -1,0 +1,13 @@
+Call:
+arima(x = gdp_diff_diff4, order = c(2, 0, 1), include.mean = FALSE)
+
+Coefficients:
+         ar1      ar2      ma1
+      1.3562  -0.5997  -0.9410
+s.e.  0.1088   0.1044   0.0762
+
+sigma^2 estimated as 29209:  log likelihood = -368.16,  aic = 744.32
+
+Training set error measures:
+                    ME     RMSE      MAE      MPE     MAPE      MASE       ACF1
+Training set -13.23537 170.9054 124.0528 36.28165 165.6614 0.7469837 0.01923468

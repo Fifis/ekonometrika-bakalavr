@@ -1,0 +1,20 @@
+Linear hypothesis test
+
+Hypothesis:
+walk = 0
+livesp_walk = 0
+kitsp_walk = 0
+dist_walk = 0
+metrdist_walk = 0
+floors_walk = 0
+
+Model 1: restricted model
+Model 2: price_metr ~ 1 + livesp + kitsp + dist + metrdist + floors + 
+    walk + livesp_walk + kitsp_walk + dist_walk + metrdist_walk + 
+    floors_walk
+
+  Res.Df        RSS Df  Sum of Sq     F    Pr(>F)    
+1    767 2.1901e+12                                  
+2    761 1.8910e+12  6 2.9909e+11 20.06 < 2.2e-16 ***
+---
+Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1

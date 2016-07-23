@@ -1,0 +1,21 @@
+Call:
+lm(formula = log(price) ~ 1 + totsp + dist + metrdist + lm_lin1$res, 
+    data = data_flats)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.67176 -0.14021 -0.01143  0.12399  0.74965 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.566e+01  4.139e-02 378.247  < 2e-16 ***
+totsp        1.481e-02  7.920e-04  18.698  < 2e-16 ***
+dist        -2.489e-02  1.693e-03 -14.707  < 2e-16 ***
+metrdist    -1.399e-02  1.769e-03  -7.905 9.28e-15 ***
+lm_lin1$res  4.206e-08  2.965e-08   1.418    0.156    
+---
+Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+
+Residual standard error: 0.2163 on 768 degrees of freedom
+Multiple R-squared:  0.4923,	Adjusted R-squared:  0.4897 
+F-statistic: 186.2 on 4 and 768 DF,  p-value: < 2.2e-16

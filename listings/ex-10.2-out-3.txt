@@ -1,0 +1,4 @@
+	studentized Breusch-Pagan test
+
+data:  reg
+BP = 69.195, df = 4, p-value = 3.357e-14

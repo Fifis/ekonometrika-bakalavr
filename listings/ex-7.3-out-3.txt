@@ -1,0 +1,7 @@
+ ( 1)  union - hours_union = 0
+ ( 2)  union - ttl_exp_union = 0
+ ( 3)  union - tenure_union = 0
+ ( 4)  union = 0
+
+       F(  4,  1859) =   11.68
+            Prob > F =    0.0000

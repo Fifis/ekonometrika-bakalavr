@@ -1,0 +1,8 @@
+setwd("C:/Users/admin/Desktop/data")
+d <- read.csv("concrete.csv", header = TRUE, sep=";")
+reg <- lm(q~l+k, data=d, subset=(l>50 & q>2000))
+summary(reg)
+reg1 <- lm(q~l+k, data=d)
+summary(reg1)
+reg2 <- lm(q~l+k, data=d, subset=(l>150 & q>2000))
+summary(reg2)

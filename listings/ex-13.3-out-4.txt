@@ -1,0 +1,3 @@
+	Shapiro-Wilk normality test
+data:  resid
+W = 0.90861, p-value = 0.0004453

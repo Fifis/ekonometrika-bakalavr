@@ -1,0 +1,21 @@
+Call:
+lm(formula = ln_price_metr ~ 1 + ln_livesp + ln_kitsp + ln_dist + 
+    ln_metrdist, data = data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.65287 -0.08929  0.00854  0.09527  0.60461 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 13.51348    0.17326  77.996  < 2e-16 ***
+ln_livesp   -0.21138    0.05282  -4.002 7.25e-05 ***
+ln_kitsp     0.01388    0.02955   0.470    0.639    
+ln_dist     -0.25879    0.02304 -11.230  < 2e-16 ***
+ln_metrdist -0.08293    0.01367  -6.068 2.58e-09 ***
+---
+Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+
+Residual standard error: 0.1761 on 496 degrees of freedom
+Multiple R-squared:  0.2638,	Adjusted R-squared:  0.2579 
+F-statistic: 44.43 on 4 and 496 DF,  p-value: < 2.2e-16

@@ -1,0 +1,7 @@
+setwd("C:/Users/admin/Desktop/data")
+data_flats <- read.csv("flats.csv", sep=";")
+lin <- lm(price ~ 1+totsp+dist+metrdist, data=data_flats)
+log <- lm(log(price) ~ 1+log(totsp)+log(dist)+log(metrdist), data=data_flats)
+install.packages("lmtest")
+library(lmtest)
+petest(lin, log)

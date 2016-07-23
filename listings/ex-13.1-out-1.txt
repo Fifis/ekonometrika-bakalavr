@@ -1,0 +1,22 @@
+> mod1
+
+Call:
+arima(x = d_unem_sa, order = c(1, 0, 4), fixed = c(NA, 0, 0, 0, NA, NA))
+
+Coefficients:
+         ar1  ma1  ma2  ma3      ma4  intercept
+      0.3738    0    0    0  -1.1236     0.0157
+s.e.  0.1293    0    0    0   0.2781     0.0189
+
+sigma^2 estimated as 0.1098:  log likelihood = -27.27,  aic = 62.55
+> mod2
+
+Call:
+arima(x = d_unem_sa, order = c(0, 0, 4), fixed = c(0, 0, 0, NA, NA))
+
+Coefficients:
+      ma1  ma2  ma3      ma4  intercept
+        0    0    0  -1.0000     0.0131
+s.e.    0    0    0   0.2973     0.0115
+
+sigma^2 estimated as 0.1469:  log likelihood = -31.17,  aic = 68.33

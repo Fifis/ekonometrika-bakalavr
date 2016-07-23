@@ -1,0 +1,8 @@
+Y[i] =   0.9165 X[i] + 2325.6861 + R[i], 
+        (0.0292)       (137.0401)
+R[i] =   0.9988 R[i-1] + eps[i], eps ~ N(0,100.9325^2)
+        (0.0009)
+
+R[3955] = -807.6296 (t = -0.464)
+
+WARNING: X and Y do not appear to be cointegrated.

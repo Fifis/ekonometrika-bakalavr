@@ -1,0 +1,10 @@
+Title:
+ Augmented Dickey-Fuller Test
+
+Test Results:
+  PARAMETER:
+    Lag Order: 3
+  STATISTIC:
+    Dickey-Fuller: -0.0914
+  P VALUE:
+    0.99 
